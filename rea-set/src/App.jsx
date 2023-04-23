@@ -1,3 +1,15 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+import A from "./components/A";
+import B from "./components/B";
+import C from "./components/C";
+
+function App() {
+  return (
+    <div className="bg-red-100 min-h-screen flex flex-col gap-8 justify-center items-center">
+      <A />
+      <B />
+      <C />
+    </div>
+  );
 }
+
+export default App;
